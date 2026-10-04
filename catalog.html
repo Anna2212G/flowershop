@@ -2,12 +2,13 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Каталог — FlowerShop</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-    <img src="images/logo.png" alt="Логотип" class="logo">
+    <img src="images/logo.png" alt="Логотип FlowerShop" class="logo">
     <h1>FlowerShop</h1>
 </header>
 
@@ -19,45 +20,51 @@
 </nav>
 
 <main>
-    <h2>Каталог товаров</h2>
+    <h2>Каталог букетов</h2>
 
-    <h3>Букеты</h3>
-    <div class="grid">
-        <div class="card">
-            <img src="images/flower1.jpg" alt="Сердце из роз">
-            <h4>Букет «Сердце из роз»</h4>
-            <p class="price">3 500 руб.</p>
-        </div>
-        <div class="card">
-            <img src="images/flower2.jpg" alt="Букет Весна">
-            <h4>Букет «Весна»</h4>
-            <p class="price">4 200 руб.</p>
-        </div>
-        <div class="card">
-            <img src="images/flower3.jpg" alt="Букет Волна">
-            <h4>Букет «Волна»</h4>
-            <p class="price">5 000 руб.</p>
-        </div>
-    </div>
+    <section class="product-list">
+        <article class="product-card">
+            <img src="images/flower1.jpg" alt="Букет Нежность" class="product-img">
+            <h3>Букет «Нежность»</h3>
+            <p>Состав: георгины, розы, упаковка.</p>
+            <p class="price">Цена: 2 500 руб.</p>
+            <a href="product1.html" class="btn">Подробнее</a>
+        </article>
 
-    <h3>Подарки и аксессуары</h3>
-    <div class="grid">
-        <div class="card">
-            <img src="images/toy.jpg" alt="Игрушка">
-            <h4>Мягкая игрушка</h4>
-            <p class="price">1 200 руб.</p>
+        <article class="product-card">
+            <img src="images/flower2.jpg" alt="Букет Весна" class="product-img">
+            <h3>Букет «Весна»</h3>
+            <p>Состав: розы и гвоздики, упаковка.</p>
+            <p class="price">Цена: 2 500 руб.</p>
+            <a href="product2.html" class="btn">Подробнее</a>
+        </article>
+
+        <article class="product-card">
+            <img src="images/flower3.jpg" alt="Букет Волна" class="product-img">
+            <h3>Букет «Волна»</h3>
+            <p>Состав: хризантемы, гортензии, упаковка.</p>
+            <p class="price">Цена: 1 900 руб.</p>
+            <a href="product3.html" class="btn">Подробнее</a>
+        </article>
+    </section>
+
+    <section class="extras">
+        <h3>Сопутствующие товары</h3>
+        <div class="extras-grid">
+            <div class="extra-item">
+                <img src="images/card.jpg" alt="Открытка" class="extra-img">
+                <p>Открытки</p>
+            </div>
+            <div class="extra-item">
+                <img src="images/balloon.jpg" alt="Шарики" class="extra-img">
+                <p>Воздушные шары</p>
+            </div>
+            <div class="extra-item">
+                <img src="images/toy.jpg" alt="Игрушка" class="extra-img">
+                <p>Мягкие игрушки</p>
+            </div>
         </div>
-        <div class="card">
-            <img src="images/balloon.jpg" alt="Шары">
-            <h4>Шары</h4>
-            <p class="price">850 руб.</p>
-        </div>
-        <div class="card">
-            <img src="images/card.jpg" alt="Открытка">
-            <h4>Открытка</h4>
-            <p class="price">250 руб.</p>
-        </div>
-    </div>
+    </section>
 </main>
 
 <footer>
